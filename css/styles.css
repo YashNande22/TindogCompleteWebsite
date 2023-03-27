@@ -1,0 +1,186 @@
+ /* <--title--> */
+ body {
+   text-align: center;
+ }
+
+#title .container-fluid{
+  padding: 3% 15%;
+  text-align: left;
+}
+ h1, h2, h3, h4, h5, h6 {
+   font-family: 'Roboto Slab', serif;
+ }
+
+ p {
+   font-family: "Roboto Slab light", sans-serif;
+   color: #8f8f8f
+ }
+
+ /* <--Heading--> */
+ .big-heading {
+   font-size: 3.5rem;
+   line-height: 1.5;
+   color: #fff;
+ }
+
+
+ /* <--Containers--> */
+ .container-fluid {
+   padding: 7% 15%;
+ }
+ .coloured-section{
+  background-color: #ff4c68;
+  color: #fff;
+ }
+ .white-section{
+   background-color: #fff;
+ }
+ /* <--Navbar--> */
+ .navbar-brand {
+   font-family: Ubuntu;
+   font-size: 2.5rem;
+   font-weight: bold;
+ }
+
+ .navbar {
+   padding-bottom: 4.5rem;
+ }
+
+ .nav-item {
+   padding: 0 18px;
+ }
+
+ .nav-link {
+   font-size: 1.2rem;
+   font-family: "Roboto Slab-light";
+ }
+
+ /* top right left bottom */
+ .download-btn {
+   margin: 5% 3% 5% 0;
+ }
+
+ .iphone-img {
+   max-width: 18%;
+   transform: rotate(25deg);
+   position: absolute;
+   right: 30%
+ }
+
+ @media (max-width: 991px) {
+   #title {
+     text-align: center;
+   }
+
+   .iphone-img {
+     position: static;
+     transform: rotate(0deg);
+     max-width: 60%;
+   }
+ }
+
+ .pad-apple {
+   padding-right: 5px;
+ }
+
+ /* <--Features--> */
+ #features {
+   line-height: 1.5;
+
+   position: relative;
+   z-index: 1;
+ }
+
+ .fa-5x {
+   font-size: 5em;
+ }
+
+ .icon {
+   color: #ef8172;
+   margin-bottom: 5%;
+ }
+
+ .fa-icon:hover {
+   color: red;
+ }
+
+
+
+ .feature-box {
+   padding: 5%;
+ }
+
+ .feature-title {
+   font-weight: bold;
+ }
+
+ /* <--Testimonials */
+
+
+ .test-img {
+   width: 10%;
+   border-radius: 100%;
+ }
+
+ .testimonial-text {
+   font-weight: bold;
+   font-size: 2rem;
+   line-height: 1.5;
+   padding: 2%;
+ }
+
+ /* <---Press----> */
+ #press {
+   background-color: #ef8172;
+   padding-bottom: 3%;
+ }
+
+ .press-logo {
+   width: 15%;
+   padding: 20px 20px 50px;
+ }
+
+ .carousel-indicators {
+   top: 300px;
+ }
+
+
+ .carousel-indicators {
+   padding-top: 60px;
+ }
+
+ /* <---pricing--> */
+ #pricing {
+   padding: 100px;
+ }
+
+ .pricing-column {
+   padding: 3% 2%;
+ }
+
+ .price-txt {
+   font-size: 3rem;
+   line-height: 1.5;
+ }
+
+ .section-heading {
+   font-size: 3rem;
+   line-height: 1.5;
+ }
+
+ .card-name {
+   font-weight: bold;
+ }
+
+ /* <--cta--> */
+
+ /* <--footer--> */
+
+
+ .icon2 {
+   padding: 20px 10px;
+ }
+
+ .icon2:hover {
+   background-color: #fff;
+ }
